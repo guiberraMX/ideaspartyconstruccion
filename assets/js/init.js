@@ -42,7 +42,7 @@ $(function () {
   
   var austDay = new Date();
   //Set counter date
-  austDay =  new Date(2015,5,12);
+  austDay =  new Date(2015,10,26);
   jQuery('#defaultCountdown').countdown({
 	until: austDay, padZeroes: true,format: 'DHMS'});
   jQuery('#year').text(austDay.getFullYear());

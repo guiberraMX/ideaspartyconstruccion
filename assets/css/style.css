@@ -191,6 +191,7 @@ h1 {
 
 h1 span{
 	 font-family: 'Ubuntu', sans-serif;
+	 text-shadow: #555 1px 2px 5px;
 	 
 
 }
