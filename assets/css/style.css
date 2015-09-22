@@ -166,7 +166,7 @@ h2 {
 
 h2 small {
 
-	font-size: 29px;
+	font-size: 27px;
 	
 	font-weight:700;
 	display:block;	
@@ -192,6 +192,7 @@ h1 {
 h1 span{
 	 font-family: 'Ubuntu', sans-serif;
 	 text-shadow: #555 1px 2px 5px;
+	 font-size: 0.7em !important;
 	 
 
 }
@@ -637,7 +638,7 @@ ul.social-buttons li:last-child {
 
 .social-btn:hover,
 .social-btn:focus {
-	background: #0e45a2;
+	
 	color: #fff;
 }
 
