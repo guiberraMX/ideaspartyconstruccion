@@ -48,7 +48,7 @@ input {
 
 body {
 	color: #000000;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	overflow:hidden;
@@ -138,8 +138,8 @@ input, button, select, textarea{
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-weight:400;
-	font-size:100%;
+	
+	font-size:18px;
 	color:#fff;
 	margin:0;
 	padding:0;
@@ -151,30 +151,53 @@ body,html {
 }
 
 h2 {
-	font-size:1em;
+	
 	font-weight:700;
 	display:block;	
 	letter-spacing:.5em;
 	margin-bottom: 2%;
-    text-transform: uppercase;
-	color:#0c59d8;
+    text-transform: ;
+	color:#FFC936;
+	font-family: "Ubuntu";
+	font-size: 23px;
+	text-shadow: #555 1px 1px 6px;
 }
+
+
+h2 small {
+
+	font-size: 29px;
+	
+	font-weight:700;
+	display:block;	
+	letter-spacing:.5em;
+	margin-bottom: 2%;
+    
+	color:#EF8840;
+	font-family: "Ubuntu";
+
+}
+
+
 h1 {
-    font-size: 4.3em;
-    font-weight: 500;
+    font-size: 1.1em;
+    font-weight: 400;
     letter-spacing: 2px;
     line-height: 1;
-    text-transform: uppercase;
+    text-transform: ;
+
 	
 }
 
 h1 span{
-	 font-family: 'Oswald',sans-serif;
+	 font-family: 'Ubuntu', sans-serif;
+	 
+
 }
 
 .features h2{
 	margin-top:10%;
-	text-transform:uppercase;
+	text-transform:;
 }
 
 p {
@@ -397,7 +420,7 @@ p {
 	height:100%;
 	width:100%;
 	top:0;
-	background-image: url(../img/image1.jpg);
+	background-image: url(../img/image1.png);
     background-origin: padding-box;
     background-repeat: no-repeat;
     background-size: cover;
@@ -570,3 +593,52 @@ body {
 @media only screen and (max-width: 240px){
 
 } 
+
+
+
+
+
+
+
+ul.social-buttons {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.social-buttons li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+ul.social-buttons li:last-child {
+	margin-right: 0;
+}
+
+.social-btn {
+	width: 96px;
+	height: 96px;
+	
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	display: inline-block;
+	color: #000;
+	line-height: 46px;
+	text-align: center;
+}
+
+.social-btn i{
+	font-size:3.9em;
+	line-height:inherit;
+}
+
+.social-btn:hover,
+.social-btn:focus {
+	background: #0e45a2;
+	color: #fff;
+}
+
+
+
